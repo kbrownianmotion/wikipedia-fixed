@@ -1,0 +1,67 @@
+#mw-navigation-mod {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+}
+
+#mw-navigation-mod > h2 {
+    position: absolute;
+    top: -9999px;
+}
+
+#mw-head {
+    max-width: 1000px;
+    position: relative;
+}
+
+#left-navigation, #mw-data-after-content, .mw-footer {
+    margin-left: -1.53em;
+    position: relative;
+    z-index: 100;
+}
+
+#mw-page-base {
+    z-index: -10;
+}
+
+#right-navigation {
+        right: -1.55em;
+        position: absolute;
+}
+
+#p-personal {
+    right: -0.55em;
+}
+
+#content.mw-body {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+    display: flow-root;
+    border-right-width: 1px;
+}
+
+/* Dealing with nresize class, e.g. panoramic image here that has horizontal scroll bar: https://en.wikipedia.org/wiki/Narendra_Modi_Stadium */
+div.noresize img {
+    max-width: 100%;
+}
+
+#mw-navigation #mw-panel {
+    display: none;
+}
+
+#mw-navigation-mod > #mw-panel {
+    position: relative;
+    right: 0px;
+    float: left;
+    margin-left: -12em;
+}
+
+
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+}
